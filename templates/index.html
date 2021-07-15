@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="static/index.css?v=1.0.199">
+<body>
+    <table>
+        <tr>
+            <th>Name</th>
+	    <th>Contact</th>
+            <th>Aadhar</th>
+            <th>City</th>
+        </tr>
+        {% for customers in customer %}
+        <tr>
+        <td>{{ customers['name']}}</td>
+        <td>{{ customers['contact'] }}</td>
+	<td>{{ customers['aadhar'] }}</td>
+	<td>{{ customers['city'] }}</td>
+        </tr>
+        {% endfor %}       
+    </table>   
+</body>
+</head>
+</html>
