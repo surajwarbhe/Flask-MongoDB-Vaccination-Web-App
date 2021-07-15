@@ -1,0 +1,37 @@
+body {
+  height: 95vh;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://cdn.hipwallpaper.com/i/25/89/75aUDp.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form {
+  width: 350px;
+  height: 550px;
+  border-radius: 25px;
+  background-image: url("https://st4.depositphotos.com/3930503/i/600/depositphotos_200062242-stock-photo-white-blurred-bokeh-nature-background.jpg");
+  padding: 20px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.value {
+  width: 250px;
+  height: 25px;
+  border-radius: 10px;
+
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.form-submit-button {
+     background: #B9DFFF;
+     color: #fff;
+     border: 1px solid #eee;
+     border-radius: 20px;
+     box-shadow: 5px 5px 5px #eee;
+     text-shadow:none;
+}
+
